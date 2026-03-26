@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">写真mdメモ</string>
+    <string name="label_open">既存のディレクトリを開く</string>
+    <string name="label_new">新規ディレクトリを作成</string>
+    <string name="label_keyword">キーワード</string>
+    <string name="label_memo">メモ</string>
+    <string name="menu_done">完了</string>
+</resources>

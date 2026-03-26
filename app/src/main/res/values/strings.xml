@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhotoMdMemo</string>
+    <string name="label_open">Open Existing Dir</string>
+    <string name="label_new">Create New Dir</string>
+    <string name="label_keyword">Keyword</string>
+    <string name="label_memo">Memo</string>
+    <string name="menu_done">Done</string>
+</resources>

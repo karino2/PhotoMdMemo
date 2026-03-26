@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Paper for Markdown -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,25 L78,25 L78,83 L30,83 Z" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M30,25 L78,25 L78,83 L30,83 Z" />
+
+    <!-- Markdown Header Indicator (#) -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M38,35 L48,35 M43,30 L43,40" />
+
+    <!-- Photo frame inside paper -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M38,45 L70,45 L70,73 L38,73 Z" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1.5"
+        android:pathData="M38,45 L70,45 L70,73 L38,73 Z" />
+
+    <!-- Mountain/Sun icon inside photo frame -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M42,68 L50,55 L58,68 Z M54,68 L62,60 L68,68 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M62,53 A3,3 0 1,1 62,53.1 Z" />
+
+</vector>
