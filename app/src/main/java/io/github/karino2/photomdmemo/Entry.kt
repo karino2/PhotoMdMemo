@@ -9,7 +9,7 @@ data class Entry(val date: Date, val name: String, val uri: Uri) {
         fun from(dir: DocumentFile): List<Entry> {
             return dir.listFiles()
                 .filter { it.name!!.endsWith(".md") }
-                .sortedBy{ it.name!! }
+                .sortedByDescending { it.name!! }
                 .map{ Entry(Date(it.lastModified()), it.name!!, it.uri) }
                 .toList()
         }
